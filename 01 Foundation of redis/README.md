@@ -19,6 +19,7 @@ A. KeyDB   B.Valkey    C. Dragonfly DB.  D. MemCached   E. Uptash
 
 5. What are the different ways to use the Redis?
 ![Redis as Cache and Session Store](./redis_as_cache_session_store.png)
+
 ![Redis Further Use Cases](./redis_further_use_cases.png)
 
 
