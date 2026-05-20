@@ -1,9 +1,11 @@
-At Production json for otp can be this much extensive:
+At Production, the JSON for an OTP can be this extensive:
+
+```json
 {
-otp : "34270",
-attempts: 0,
-maxAttempts: 3, 
-createdAt: timestamp,
-lastAttemptAt:timestamp,
-blockedUntil: timestamp, // this can be kept optional.
+  "otp": "34270",
+  "attempts": 0,
+  "maxAttempts": 3,
+  "createdAt": "timestamp",
+  "lastAttemptAt": "timestamp",
+  "blockedUntil": "timestamp" 
 }
