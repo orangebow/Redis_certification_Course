@@ -1,4 +1,4 @@
-# ⚡ Mastering Redis Hashes: The Ultimate Guide
+# Mastering Redis Hashes: The Ultimate Guide
 
 A high-performance, developer-friendly guide to managing structured object data in Redis using **Hashes**. Learn how to efficiently map fields to values using `HSET`, `HGET`, and `HGETALL`.
 
@@ -18,7 +18,7 @@ Unlike a basic Key-Value string pair, a **Redis Hash** acts like a flat JavaScri
 
 ## 🛠️ Core Hash Commands & Implementation
 
-### 1. 🟢 `HSET` — Create or Update Fields
+### 1.  `HSET` — Create or Update Fields
 Sets the specified fields to their respective values within the hash stored at the key. If the key does not exist, a new key holding a hash is created.
 
 * **CLI Syntax:** `HSET key field value [field value ...]`
